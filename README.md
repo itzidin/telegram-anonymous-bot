@@ -34,7 +34,7 @@ A feature-rich Telegram bot that enables anonymous messaging with comprehensive 
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/telegram-anonymous-bot.git
+   git clone https://github.com/itzidin/telegram-anonymous-bot.git
    cd telegram-anonymous-bot
    ```
 
