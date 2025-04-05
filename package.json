@@ -1,0 +1,29 @@
+{
+  "name": "telegram-anonymous-bot",
+  "version": "1.0.0",
+  "description": "A feature-rich Telegram bot for anonymous messaging with admin features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "migrate": "node src/db/migrate.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "anonymous",
+    "messaging",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "sequelize": "^6.31.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+} 
